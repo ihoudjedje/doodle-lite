@@ -1,0 +1,11 @@
+1- ls
+2- rm mongo*
+3- cd data/
+4- rm mongo.*** (forgot what called)
+5- return to project root
+
+//real commands paste them directly
+6- sudo apt-get install -y mongodb-org
+7- echo 'mongod --bind_ip=$IP --dbpath=data --nojournal --rest "$@"' > mongod
+8- chmod a+x mongod
+9- ./mongod

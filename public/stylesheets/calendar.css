@@ -1,0 +1,34 @@
+#td_main_table {
+    width: 120px;
+    height: 120px;
+    border: 2px blue inset;
+    cursor: pointer;
+    text-align: center;
+}
+#my_calendar_title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+#my_mini_table td{
+    width: 20px;
+    height: 20px;
+}
+
+.first_row_mini_table{
+    border-bottom: 2px blue inset;
+    font-size: 20px;
+    font-weight: bold;
+}
+#my_calendar{
+    margin-left: auto;
+    margin-right: auto;
+}
+.row{
+    max-width: 800px;
+
+    
+}
+.bottons{
+    margin-top: 5px;
+}
